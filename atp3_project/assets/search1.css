@@ -1,0 +1,43 @@
+#box{
+    position: absolute;
+  
+    left: 25%;
+    
+    top: 20px;
+    /* border: 3px solid green; */
+    
+}
+
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+#empsearch{
+    background: #fff;
+    width:340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;;
+}
+#empsearch1{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(88, 71, 177);
+   color: #fff;
+}
+#heading{
+background:#5847B1;
+color: #fff;
+}
